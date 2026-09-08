@@ -12,11 +12,13 @@
 ## Methods
 | Method | Description |
 | --- |---|| | |
-
 | Level Up | This method determines an action "Level Up" which lets the user strengthen the skill  |
 | Use | This method determines an action "Use" which lets user use the ability |
+![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-3.png)
+
 ## Class Diagram
-![Class Diagram]Images/Original-Diagram-Page-1.png)
+![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-2.png)
+
 ## Design Explanation
 ### Why did you choose this class?
 I chose this class because I like games
