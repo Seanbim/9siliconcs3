@@ -20,7 +20,7 @@
 ![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-3.png)
 
 ## Class Diagram
-
+![Click here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Object-Diagram.png)
 
 ## Design Explanation
 ### Why did you choose this class?
