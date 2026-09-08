@@ -9,6 +9,8 @@
 | Dmg | int | indicates the amount of damage dealt |
 | mana cost | int | Indicates how much mana it will take to cast skill |
 | Stun | boolean | Indicates whether enemy will be stunned or not |
+
+![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-2.png)
 ## Methods
 | Method | Description |
 | --- | --- |
@@ -18,7 +20,7 @@
 ![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-3.png)
 
 ## Class Diagram
-![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-2.png)
+
 
 ## Design Explanation
 ### Why did you choose this class?
