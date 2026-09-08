@@ -8,7 +8,7 @@
 | Type | string | Indicates whether skill deals damage or applies buffs/debuffs |
 | Dmg | int | indicates the amount of damage dealt |
 | mana cost | int | Indicates how much mana it will take to cast skill |
-| Stun | string | Indicates whether enemy will be stunned or not |
+| Stun |t string | Indicates whether enemy will be stunned or not |
 
 ![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-2.png)
 ## Methods
