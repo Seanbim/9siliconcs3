@@ -11,7 +11,7 @@
 | Stun | boolean | Indicates whether enemy will be stunned or not |
 ## Methods
 | Method | Description |
-| --- |---|| | |
+| --- | --- |
 | Level Up | This method determines an action "Level Up" which lets the user strengthen the skill  |
 | Use | This method determines an action "Use" which lets user use the ability |
 ![Click Here](https://github.com/Seanbim/9siliconcs3/blob/main/q1/Images/Original-Diagram-Page-3.png)
