@@ -1,0 +1,39 @@
+class Skill:
+    def __init__(self, skill_type, mana_cost, dmg, stun):
+        # Public attributes
+        self.skill_type = skill_type      
+        self.mana_cost = mana_cost       
+ 
+        # Private attributes
+        self.__dmg = dmg                  
+        self.__stun = stun         
+
+    def get_damage(self):
+        return self.__dmg
+ 
+    def level_up(self, amount):
+        if amount > 0:
+            self.__dmg += amount
+        else:
+            print(f"Invalid level up amount: {amount}. Damage unchanged.")
+ 
+    def use(self):
+        stun_text = "and stuns the enemy" if self.__stun else "with no stun effect"
+        return (f"{self.skill_type} skill used for {self.mana_cost} mana, "
+                f"dealing {self.__dmg} damage {stun_text}.")
+
+if __name__ == "__main__":
+    fireball = Skill(skill_type="Fireball", mana_cost=20, dmg=35, stun=False)
+    iceshard = Skill(skill_type="Ice Shard", mana_cost=15, dmg=20, stun=True)
+ 
+    print("--- BEFORE ---")
+    print("Object 1 (fireball):", fireball.show_status())
+    print("Object 2 (iceshard):", iceshard.show_status())
+ 
+    print("\nPerforming action on Object 1 (fireball.level_up(10))...")
+    fireball.level_up(10)
+    print(fireball.use())
+ 
+    print("\n--- AFTER ---")
+    print("Object 1 (fireball):", fireball.show_status())
+    print("Object 2 (iceshard):", iceshard.show_status())
