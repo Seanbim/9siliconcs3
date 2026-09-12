@@ -22,6 +22,10 @@ class Skill:
         return (f"{self.skill_type} skill used for {self.mana_cost} mana, "
                 f"dealing {self.__dmg} damage {stun_text}.")
 
+    def show_status(self):
+        return (f"Type: {self.skill_type} | Mana Cost: {self.mana_cost} | "
+                f"Damage: {self.__dmg} | Stun: {self.__stun}")
+
 if __name__ == "__main__":
     fireball = Skill(skill_type="Fireball", mana_cost=20, dmg=35, stun=False)
     iceshard = Skill(skill_type="Ice Shard", mana_cost=15, dmg=20, stun=True)
