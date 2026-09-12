@@ -3,18 +3,18 @@
 [Part I - Classes and Objects](classObjectUML.md)
 [Part II - Class Attributes and Methods](classAttributesMethods.md)
 ## Existing Class
-Class:
-Description:
+Class: Skills
+Description: it is abilities or powers used by users in a game.
 ## New Related Class
-Class:
-Description:
+Class: Characters
+Description: The game representation of a player and the object that uses skills
 ## Association
-Relationship:
-Explanation:
+Relationship: Skill is utilized by Character
+Explanation: A skill on it's own is just an ability—it only becomes useful when a character decides to cast it.
 ## Multiplicity
 
-Multiplicity:
-Explanation:
+Multiplicity: 1 skill --------- 0..* characters
+Explanation: 1 skill can be obtained by multiple characters, therefore it is one-to-many
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
