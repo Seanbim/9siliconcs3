@@ -20,7 +20,7 @@ Explanation: 1 character can obtain multiple skills, therefore it is one-to-many
 ## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](images/classTestRun.png.png)
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
