@@ -16,13 +16,13 @@ Explanation: A skill on it's own is just an ability—it only becomes useful whe
 Multiplicity: 1 character --------- 0..* skills
 Explanation: 1 character can obtain multiple skills, therefore it is one-to-many
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram](Images/classRelationshipDiagram.png)
 ## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
-![Relationship Test Run](images/classTestRun.png.png)
+![Relationship Test Run](Images/classTestRun.png.png)
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+![Object Relationship Diagram](Images/objectRelationshipDiagram.png)
 ## Analysis
 ### What is the association between your two classes?
 The original class, Skills, are the abilities used by the new class, Character.
