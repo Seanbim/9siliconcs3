@@ -1,7 +1,7 @@
 # Name: Neil Josean Briones
 ## Section: 9-Silicon 
 ## House: Gold
-## Phone number: 09338624691
+## Gmail: njlbriones@brc.pshs.edu.ph
 
 # Quarter 1
 ## Computational Thinking Skills
