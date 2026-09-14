@@ -1,4 +1,4 @@
-# Name: Neil Josean Briones
+# Name: Neil Josean Legaspi Briones
 ## Section: 9-Silicon 
 ## House: Gold
 ## Gmail: njlbriones@brc.pshs.edu.ph
