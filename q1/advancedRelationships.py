@@ -31,11 +31,12 @@ if __name__ == "__main__":
 
     aria = Character(name="Aria", hp=100)
 
-    iceshard = Skill(
+    iceshard = CombatSkill(
         skill_type="Ice Shard",
         mana_cost=15,
         dmg=20,
         stun=True
+        targeting_type="Auto Targeting"
     )
 
     heal = Skill(
