@@ -2,12 +2,12 @@ from classRelationships import Skill, Character
 
 
 class CombatSkill(Skill):
-    def __init__(self, skill_type, mana_cost, dmg, stun, range_type):
+    def __init__(self, skill_type, mana_cost, dmg, stun, targeting_type):
         super().__init__(skill_type, mana_cost, dmg, stun)
-        self.range_type = range_type
+        self.targeting_type = targeting_type
 
-    def show_range(self):
-        return f"{self.skill_type} is a {self.range_type}-range combat skill."
+    def show_targeting(self):
+        return f"{self.skill_type} uses {self.targeting_type}."
 
 
 if __name__ == "__main__":
@@ -18,13 +18,13 @@ if __name__ == "__main__":
         mana_cost=20,
         dmg=35,
         stun=False,
-        range_type="long"
+        targeting_type="Circle AoE"
     )
 
     print("Skill type:", fireball.skill_type)
     print("Mana cost:", fireball.mana_cost)
     print("Damage:", fireball.get_damage())
-    print(fireball.show_range())
+    print(fireball.show_targeting())
     print(fireball.use())
 
     print("\n--- TEST 2: AGGREGATION ---")
