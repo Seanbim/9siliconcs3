@@ -19,7 +19,7 @@ Explanation: The relationship between Character and Skill is aggregation because
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](Images/advancedTestRun.png)
 ## Object Diagram
 ![Objects](Images/advancedObjectDiagram.png)
 
