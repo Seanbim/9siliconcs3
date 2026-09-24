@@ -35,7 +35,7 @@ if __name__ == "__main__":
         skill_type="Ice Shard",
         mana_cost=15,
         dmg=20,
-        stun=True
+        stun=True,
         targeting_type="Auto Targeting"
     )
 
