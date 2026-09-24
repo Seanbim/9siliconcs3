@@ -10,18 +10,18 @@ Child: CombatSkill
 Explanation:
 CombatSkill is a specialized type of Skill, so it follows an IS-A relationship. It inherits the attributes and methods of the Skill class. The CombatSkill class also has an additional range_type attribute that describes whether the skill is short-range or long-range. The child class uses super().__init__() to reuse the constructor of the parent class.
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](Images/inheritanceDiagram.png)
 ## Composition/Aggregation
 Relationship: Character ◇── Skill
 Explanation: The relationship between Character and Skill is aggregation because a character contains skill objects that can exist independently. The skills are created before they are added to a character using learn_skill(). If the character is removed, the skill objects can still exist separately
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](Images/advancedClassDiagram.png)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
 ![Test](images/advancedTestRun.png)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](Images/advancedObjectDiagram.png)
 
 ## Reflection
 Answers: 
