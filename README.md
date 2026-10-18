@@ -16,4 +16,5 @@
 ### [View my OOP Seed System Part 2 Exercise](q1/classimplementation.py)
 ## OOP Seed System Part 3
 ### [View my OOP Seed System Part 3 Exercise](q1/classRelationship.md)
-
+## OOP Seed System Part 4
+### [View my OOP Seed System Part 4 Exercise](q1/advancedRelationship.md)
