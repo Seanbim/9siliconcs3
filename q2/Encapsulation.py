@@ -37,4 +37,5 @@ print("Account Number:", account.account_number)
 print(f"Balance: ₱{account.balance:,.2f}")
 
 account.set_balance(-1000)
+print("Account Number:", account.account_number)
 print(f"Final Balance: ₱{account.balance:,.2f}")
