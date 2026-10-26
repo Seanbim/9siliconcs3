@@ -18,3 +18,9 @@
 ### [View my OOP Seed System Part 3 Exercise](q1/classRelationship.md)
 ## OOP Seed System Part 4
 ### [View my OOP Seed System Part 4 Exercise](q1/advancedRelationships.md)
+
+# Quarter 2
+## Encapsulation
+### [View my Encapsulation Exercise](q2/Encapsulation.py)
+## Inheritance
+###
