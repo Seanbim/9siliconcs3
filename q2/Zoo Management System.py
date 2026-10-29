@@ -38,7 +38,7 @@ lion1 = Lion("Simba")
 elephant1 = Elephant("Dumbo")
 monkey1 = Monkey("George")
 
-animals = [animal1, lion1, elephant1, monkey1]
+animals = [animal, lion1, elephant1, monkey1]
 
 for animal in animals:
     animal.eat()
