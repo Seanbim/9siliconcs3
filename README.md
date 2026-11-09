@@ -25,4 +25,4 @@
 ## Inheritance
 ### [View my Inheritance Exercise](q2/Inheritance.py)
 ## Zoo Management System
-### [View my Zoo Management System Exercise](q2/Zoo Management System.py)]
+### [View my Zoo Management System Exercise](q2/Zoo Management System.py)
