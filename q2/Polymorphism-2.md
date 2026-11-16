@@ -13,7 +13,7 @@ It needed to have the method move() which the other 2 classes also have.
 
 ## Question 2
 ### Python code
-[Polymorphism activity 2 code](q2/Polymorphism-2.py)
+[Polymorphism activity 2 code](Polymorphism-2.py)
 ---
 
 ## Question 3
