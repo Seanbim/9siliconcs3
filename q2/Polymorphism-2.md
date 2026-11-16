@@ -7,12 +7,13 @@
 ### a. What is duck typing, as explained in the video?
 It is when python cares more about what an object can do, rather than what class it belongs to.
 ### b. What did the Car class need to have so it could work inside the same loop as Dog and Cat, even if it does not inherit from the Animal class?
-it needed to have the method move() which the other 2 also have.
+It needed to have the method move() which the other 2 classes also have.
+
 ---
 
 ## Question 2
 ### Python code
-[Insert code here]
+[Polymorphism activity 2 code](q2/Polymorphism-2.py)
 ---
 
 ## Question 3
